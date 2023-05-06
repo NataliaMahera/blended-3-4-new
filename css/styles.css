@@ -132,3 +132,32 @@ body {
     align-items: center;
 }
 
+/* =============OPINIONS============ */
+.opinions {
+    background-color: var(--accent-color-yellow);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title {
+font-family: var(--main-font-family)
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+color: #2C2C2C;
+margin-bottom: 20px;
+}
+
+.opinion-list {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 140px;
+}
+.opinion-list-item {
+    background-color: #FEFEFE;
+}
+.opinion-card-content-wrapper{
+
+}
