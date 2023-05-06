@@ -140,13 +140,12 @@ body {
 }
 
 .title {
-font-family: var(--main-font-family)
-font-style: normal;
-font-weight: 700;
-font-size: 42px;
-line-height: 1.16;
-color: #2C2C2C;
-margin-bottom: 20px;
+    font-family: var(--main-font-family) font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    color: #2C2C2C;
+    margin-bottom: 20px;
 }
 
 .description {
@@ -162,22 +161,11 @@ margin-bottom: 20px;
     margin-bottom: 32px;
 }
 
-.comment-description {
-    font-family: var(--main-font-family);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16;
-    color: #2C2C2C;
-    margin-bottom: 40px;
-    max-width: 473px; 
-}
-.opinion-list {
+.opinions-list {
     display: flex;
     gap: 140px;
 }
-.opinion-list-item {
-    /* display: flex; */
+.opinions-list-item {
     background-color: #FEFEFE;
     max-width: 501px;
     padding: 58px 14px 14px;
@@ -187,11 +175,47 @@ margin-bottom: 20px;
     background-repeat: no-repeat;
     background-position: 14px 14px;
     background-size: 101px 16px;
-    /* height: 227px; */
+}
+
+.comment-desc {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #2C2C2C;
+    margin-bottom: 40px;
+    max-width: 473px; 
+}
+
+.avatar-content {
+    display: flex;
+    width: 160px;
+    max-height: 52px;
+    border-right: 1px solid #7EB101;
 }
 
 .avatar {
     width: 48px;
     height: 48px;
+    margin-right: 16px;
 }
-   
+.avatar-name {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2C2C2C;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.avatar-position {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2C2C2C;
+}
